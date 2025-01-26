@@ -7,7 +7,7 @@
      - **Multicluster Management:** Refers to the ability to manage, operate, and interact with multiple Kubernetes clusters simultaneously.
      - **Multinamespace Management:** Involves isolating workloads within the same cluster using namespaces for better resource segregation and access control.
 
-   - **Importance of Multi-cluster and Multi-namespace Setups:**
+   - <h3>Importance of Multi-cluster and Multi-namespace Setups:</h3>
      - **Disaster Recovery:** Having resources deployed across clusters ensures fault tolerance. If one cluster fails, others remain operational.
      - **High Availability:** Distributing workloads across regions or clusters ensures users experience minimal downtime.
      - **Environment Isolation:** Helps segregate dev, staging, and prod workloads for testing and deployment without conflicts.
