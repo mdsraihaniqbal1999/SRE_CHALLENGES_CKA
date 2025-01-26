@@ -3,7 +3,7 @@
 1. **Multi-Cluster Management Concepts**
    - Define multi-cluster management in Kubernetes?
    - Explore use cases: high availability, disaster recovery, multi-cloud strategies?
-     - <h2>**Definition:**</h2>
+     - <h3>Definition:</h2>
      - **Multicluster Management:** Refers to the ability to manage, operate, and interact with multiple Kubernetes clusters simultaneously.
      - **Multinamespace Management:** Involves isolating workloads within the same cluster using namespaces for better resource segregation and access control.
 
