@@ -38,6 +38,9 @@
 <img width="480" alt="image" src="https://github.com/user-attachments/assets/bbc5ab6c-9401-430a-a6db-1fc65180ae93" />
 
 
+<img width="373" alt="image" src="https://github.com/user-attachments/assets/7623cb19-5409-4a17-9ff2-ec507266340d" />
+
+
 #### Configuration Unification
 - Merge cluster configurations
 - Verify cluster accessibility using `kubectl`
