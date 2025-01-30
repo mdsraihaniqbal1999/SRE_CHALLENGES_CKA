@@ -43,7 +43,21 @@
 
 #### Configuration Unification
 - Merge cluster configurations
+<img width="801" alt="image" src="https://github.com/user-attachments/assets/937195db-7152-405a-ba66-b4e47ac76a6b" />
+<img width="978" alt="image" src="https://github.com/user-attachments/assets/03e880b9-d9fd-45e8-9196-00f8b1a0fef2" />
+<img width="560" alt="image" src="https://github.com/user-attachments/assets/4d6c8fa3-7c87-49a2-b590-cc0d437295d0" />
+
+
 - Verify cluster accessibility using `kubectl`
+
+<img width="750" alt="image" src="https://github.com/user-attachments/assets/75193a00-3d4b-4b27-a8d9-27bd1f4919bc" />
+
+<img width="775" alt="image" src="https://github.com/user-attachments/assets/0f83fae7-10a5-4924-9922-a82480e1d549" />
+
+<img width="935" alt="image" src="https://github.com/user-attachments/assets/f28d1fc8-1d1d-4a43-8ce4-91fe94714b8c" />
+
+
+
 
 #### Namespace and Resource Deployment
 - Deploy resources in specific namespaces:
