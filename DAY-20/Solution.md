@@ -27,8 +27,16 @@
 #### Cluster Setup
 - Create three Kind clusters with different Kubernetes versions:
   - `kind-dev-cluster`: v1.32.0
+<img width="934" alt="image" src="https://github.com/user-attachments/assets/630b50c5-3c64-49d9-a590-7afd6d49347f" />
+
+
   - `kind-staging-cluster`: v1.31.4
+<img width="531" alt="image" src="https://github.com/user-attachments/assets/b92fd75e-2962-4b70-b0e9-18602e624d87" />
+
+
   - `kind-prod-cluster`: v1.30.8
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/bbc5ab6c-9401-430a-a6db-1fc65180ae93" />
+
 
 #### Configuration Unification
 - Merge cluster configurations
