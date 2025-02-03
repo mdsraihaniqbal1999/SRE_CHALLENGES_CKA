@@ -79,21 +79,36 @@ Understanding the differences between upgrading **managed Kubernetes services li
 * Verify that the Kubernetes version in the cluster matches the latest stable release.
 <img width="365" alt="image" src="https://github.com/user-attachments/assets/aaf720b0-4a4b-40ad-8800-c53c0112760d" />
 
+<br/>
+
 <img width="355" alt="image" src="https://github.com/user-attachments/assets/2e44822d-c00b-4723-96bf-77612e2b0816" />
+
+<br/>
 
 <img width="472" alt="image" src="https://github.com/user-attachments/assets/655b313d-c0f5-4057-9c1b-3ac0104327ff" />
 
+<br/>
+
 <img width="979" alt="image" src="https://github.com/user-attachments/assets/d8fc17fc-2efe-40e9-b642-92d2f5c59c12" />
+
+<br/>
 
 <img width="1152" alt="image" src="https://github.com/user-attachments/assets/6236e385-6734-43ee-8a54-7ce22d40707c" />
 
+<br/>
+
 <img width="787" alt="image" src="https://github.com/user-attachments/assets/039a35af-0bd8-4f45-ae42-8bfe3a34c4e6" />
+
+<br/>
 
 <img width="1127" alt="image" src="https://github.com/user-attachments/assets/07131d2d-2bb0-43a2-b8e4-25ca7ff613a3" />
 
-<img width="525" alt="image" src="https://github.com/user-attachments/assets/cb1c7595-48db-4cc4-8c93-000fa73a3427" />
+<br/>
+
 
 <img width="1152" alt="image" src="https://github.com/user-attachments/assets/efd48b0d-4545-4d9a-97b9-dbc086c1e6f5" />
+
+<br/>
 
 
 <img width="630" alt="image" src="https://github.com/user-attachments/assets/72e1dc10-fd95-40f5-aeb5-1f077651461a" />
