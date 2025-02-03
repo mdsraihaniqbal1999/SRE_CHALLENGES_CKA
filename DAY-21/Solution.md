@@ -72,125 +72,72 @@ Understanding the differences between upgrading **managed Kubernetes services li
 
 ---
 
-### **Practical Challenge: Upgrading Clusters in Different Environments**
+# Practical Challenge: Upgrading Clusters in Different Environments
 
-#### **1. Minikube Cluster Upgrade**
+## 1. Minikube Cluster Upgrade
+* Upgrade your existing Minikube setup to the latest version.
+* Verify that the Kubernetes version in the cluster matches the latest stable release.
+<img width="365" alt="image" src="https://github.com/user-attachments/assets/aaf720b0-4a4b-40ad-8800-c53c0112760d" />
 
-**Step 1:** Check the current version:
-```sh
-minikube version
-```
+<img width="355" alt="image" src="https://github.com/user-attachments/assets/2e44822d-c00b-4723-96bf-77612e2b0816" />
 
-**Step 2:** Upgrade Minikube:
-```sh
-minikube stop
-minikube delete
-curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
-sudo install minikube-linux-amd64 /usr/local/bin/minikube
-```
+<img width="472" alt="image" src="https://github.com/user-attachments/assets/655b313d-c0f5-4057-9c1b-3ac0104327ff" />
 
-**Step 3:** Start Minikube and verify the upgrade:
-```sh
-minikube start
-kubectl version --short
-```
+<img width="979" alt="image" src="https://github.com/user-attachments/assets/d8fc17fc-2efe-40e9-b642-92d2f5c59c12" />
 
-#### **2. Kind Cluster Upgrade**
+<img width="1152" alt="image" src="https://github.com/user-attachments/assets/6236e385-6734-43ee-8a54-7ce22d40707c" />
 
-**Step 1:** Create a cluster with an older version:
-```sh
-kind create cluster --name upgrade-cluster --image kindest/node:v1.30.8
-```
+<img width="787" alt="image" src="https://github.com/user-attachments/assets/039a35af-0bd8-4f45-ae42-8bfe3a34c4e6" />
 
-**Step 2:** Verify the version:
-```sh
-kubectl --context kind-upgrade-cluster version --short
-```
+<img width="1127" alt="image" src="https://github.com/user-attachments/assets/07131d2d-2bb0-43a2-b8e4-25ca7ff613a3" />
 
-**Step 3:** Upgrade Kind and recreate the cluster:
-```sh
-kind delete cluster --name upgrade-cluster
-kind create cluster --name upgrade-cluster --image kindest/node:v1.32.0
-```
+<img width="525" alt="image" src="https://github.com/user-attachments/assets/cb1c7595-48db-4cc4-8c93-000fa73a3427" />
 
-**Step 4:** Verify the new version:
-```sh
-kubectl --context kind-upgrade-cluster version --short
-```
+<img width="1152" alt="image" src="https://github.com/user-attachments/assets/efd48b0d-4545-4d9a-97b9-dbc086c1e6f5" />
 
-#### **3. Kubeadm Cluster Upgrade**
 
-**Step 1:** Check current cluster version:
-```sh
-kubectl version --short
-```
+<img width="630" alt="image" src="https://github.com/user-attachments/assets/72e1dc10-fd95-40f5-aeb5-1f077651461a" />
 
-**Step 2:** Upgrade kubeadm:
-```sh
-sudo apt-get update && sudo apt-get install -y kubeadm
-sudo kubeadm upgrade plan
-sudo kubeadm upgrade apply v1.32.0
-```
 
-**Step 3:** Upgrade kubelet and restart services:
-```sh
-sudo apt-get install -y kubelet
-sudo systemctl restart kubelet
-```
 
-**Step 4:** Verify upgrade:
-```sh
-kubectl get nodes
-kubectl version --short
-```
 
-#### **4. EKS Cluster Upgrade**
 
-**Step 1:** Check the current version:
-```sh
-aws eks describe-cluster --name my-cluster --query "cluster.version" --output text
-```
 
-**Step 2:** Upgrade control plane:
-```sh
-aws eks update-cluster-version --name my-cluster --kubernetes-version 1.32
-```
 
-**Step 3:** Upgrade node groups:
-```sh
-aws eks update-nodegroup-version --cluster-name my-cluster --nodegroup-name my-nodegroup
-```
 
-**Step 4:** Verify upgrade:
-```sh
-kubectl version --short
-kubectl get nodes -o wide
-```
 
----
+## 2. Kind Cluster Upgrade
+* Create a Kind cluster using an older Kubernetes version (e.g., v1.30.8).
+* Upgrade kind cluster to latest version
+* Confirm the version upgrade with `kubectl version`.
 
-## **Submission Guidelines**
+## 3. Kubeadm Cluster Upgrade
+* Create a multi-node Kubernetes cluster using Kubeadm.
+* Upgrade the Control Plane and Nodes to a newer Kubernetes version.
+* Verify that all components (kube-apiserver, kube-controller-manager, kube-scheduler, etc.) are updated.
 
-### Your submission should include:
-- **Your answers to the theory questions.**
-- **Screenshots of:**
-  - The pre-upgrade and post-upgrade versions for each cluster.
-  - Key commands executed during the upgrade process.
-- **Document your observations and challenges during the upgrades.**
-- **Post your progress with the hashtags:** `#KubernetesUpgrades`, `#DevOpsForAll`, `#ckawithsagar`
+### Resources:
+* Kubeadm Upgrade Documentation
+* Kubeadm Cluster Upgrade Guide
+* YouTube Video on Kubeadm Upgrades
 
----
+## 4. EKS Cluster Upgrade
+* Upgrade the EKS Control Plane to a newer version using AWS CLI.
+* Update the node groups to match the Control Plane version.
+* Confirm the upgrade with `kubectl version`.
 
-## **Resources to Help You**
+**Note:** EKS also provides an **auto mode** for node groups, which simplifies the process of keeping your nodes up-to-date. While this reduces manual intervention, it's important to monitor the process and validate workloads after the upgrade to ensure seamless transitions.
 
-- [Minikube Upgrade Documentation](https://minikube.sigs.k8s.io/docs/start/)
-- [Kind Cluster Guide](https://kind.sigs.k8s.io/)
-- [Kubeadm Upgrade Guide](https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/)
-- [YouTube: Kubeadm Upgrades](https://www.youtube.com/results?search_query=kubeadm+upgrade)
-- [EKS Cluster Upgrade Documentation](https://docs.aws.amazon.com/eks/latest/userguide/update-cluster.html)
+## Best Practices:
+* Monitor your workloads during the upgrade to ensure there are no disruptions.
+* Use a phased approach to minimize risks in production.
+* Leverage EKS version release notes and upgrade tools to plan your upgrades effectively.
 
-If you missed any previous challenges, you can catch up by reviewing the problem statements on GitHub.
-
-**Best regards,**  
-*Sagar Utekar*
+## Submission Guidelines
+1. Your answers to the theory questions.
+2. Screenshots of:
+   * The pre-upgrade and post-upgrade versions for each cluster.
+   * Key commands executed during the upgrade process.
+3. Document your observations and challenges during the upgrades.
+4. Post your progress with the hashtags: #KubernetesUpgrades, #DevOpsForAll, #ckawithsagar
 
