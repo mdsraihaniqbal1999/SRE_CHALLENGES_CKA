@@ -116,18 +116,22 @@ Understanding the differences between upgrading **managed Kubernetes services li
 
 <img width="630" alt="image" src="https://github.com/user-attachments/assets/72e1dc10-fd95-40f5-aeb5-1f077651461a" />
 
-
-
-
-
-
-
-
+<br/>
 
 ## 2. Kind Cluster Upgrade
 * Create a Kind cluster using an older Kubernetes version (e.g., v1.30.8).
 * Upgrade kind cluster to latest version
 * Confirm the version upgrade with `kubectl version`.
+
+<img width="903" alt="image" src="https://github.com/user-attachments/assets/4ddfad0d-924a-4698-9446-34bf5567d5c4" />
+<br/>
+<img width="963" alt="image" src="https://github.com/user-attachments/assets/1ae6a177-c972-4855-bd29-2816b860bc42" />
+<br/>
+<img width="448" alt="image" src="https://github.com/user-attachments/assets/006f32f6-17fb-48ba-bce7-7e715cd3581a" />
+<br/>
+
+
+
 
 ## 3. Kubeadm Cluster Upgrade
 * Create a multi-node Kubernetes cluster using Kubeadm.
