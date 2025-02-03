@@ -110,6 +110,9 @@ Understanding the differences between upgrading **managed Kubernetes services li
 
 <br/>
 
+<img width="399" alt="image" src="https://github.com/user-attachments/assets/1fec4037-55a6-4242-ad38-d848906ad277" />
+
+<br/>
 
 <img width="630" alt="image" src="https://github.com/user-attachments/assets/72e1dc10-fd95-40f5-aeb5-1f077651461a" />
 
