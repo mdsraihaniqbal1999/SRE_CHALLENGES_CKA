@@ -123,24 +123,13 @@ Understanding the differences between upgrading **managed Kubernetes services li
 * Upgrade kind cluster to latest version
 * Confirm the version upgrade with `kubectl version`.
 
-<img width="903" alt="image" src="https://github.com/user-attachments/assets/4ddfad0d-924a-4698-9446-34bf5567d5c4" />
+<img width="339" alt="image" src="https://github.com/user-attachments/assets/3bc27b37-daae-4355-825b-976260e564f3" />
 <br/>
-<img width="963" alt="image" src="https://github.com/user-attachments/assets/1ae6a177-c972-4855-bd29-2816b860bc42" />
+<img width="409" alt="image" src="https://github.com/user-attachments/assets/3f35bbf8-1ccf-43ae-bd70-712685c1d8e0" />
 <br/>
-<img width="448" alt="image" src="https://github.com/user-attachments/assets/006f32f6-17fb-48ba-bce7-7e715cd3581a" />
-<br/>
-<img width="1143" alt="image" src="https://github.com/user-attachments/assets/ed5d7538-b847-4620-8e82-aa9e6e6b709b" />
-<br/>
-<img width="1152" alt="image" src="https://github.com/user-attachments/assets/1824c025-888f-4302-abc5-a83e1dc82267" />
-<br/>
-<img width="613" alt="image" src="https://github.com/user-attachments/assets/53b67bde-3820-4cc2-a117-bac5519fa1d6" />
-<br/>
-<img width="1000" alt="image" src="https://github.com/user-attachments/assets/b08ad36e-ebc3-4bcf-92b4-bd14545521b0" />
-<br/>
-<img width="953" alt="image" src="https://github.com/user-attachments/assets/1cc434c3-f945-41bd-b0dd-faccd3a5c148" />
-<br/>
-<img width="568" alt="image" src="https://github.com/user-attachments/assets/b0853b92-2016-45e6-b7b7-5abc2fd8c1fd" />
-<br/>
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/b3d1e321-431b-491f-8cf2-a649057c1851" />
+
+
 
 
 
