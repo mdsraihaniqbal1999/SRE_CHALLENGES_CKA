@@ -269,5 +269,4 @@ kubectl get crd -o yaml
 ## Contributing
 Feel free to submit additional questions or improvements.
 
-## License
-[MIT](LICENSE)
+
