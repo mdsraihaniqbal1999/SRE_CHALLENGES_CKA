@@ -166,6 +166,20 @@ Understanding the differences between upgrading **managed Kubernetes services li
 * Upgrade the Control Plane and Nodes to a newer Kubernetes version.
 * Verify that all components (kube-apiserver, kube-controller-manager, kube-scheduler, etc.) are updated.
 
+<img width="661" alt="image" src="https://github.com/user-attachments/assets/e2430df8-14c2-4195-b286-0741a886f58d" />
+<br/>
+<img width="413" alt="image" src="https://github.com/user-attachments/assets/0c43cbec-fc22-471e-b6c5-ad937f293150" />
+<br/>
+<img width="338" alt="image" src="https://github.com/user-attachments/assets/f5043d48-7789-42c5-b7e3-b87f75f4381f" />
+<br/>
+<img width="408" alt="image" src="https://github.com/user-attachments/assets/49a75c61-f817-4e9c-9fb9-10f8dd97bcc1" />
+<br/>
+
+
+
+
+
+
 ### Resources:
 * Kubeadm Upgrade Documentation
 * Kubeadm Cluster Upgrade Guide
