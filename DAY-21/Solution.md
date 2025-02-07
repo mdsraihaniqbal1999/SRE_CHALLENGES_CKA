@@ -198,6 +198,16 @@ Understanding the differences between upgrading **managed Kubernetes services li
 <br/>
 <img width="1152" alt="image" src="https://github.com/user-attachments/assets/729f9fcf-ced0-4772-ae83-fffc0b9ca7a9" />
 <br/>
+<img width="578" alt="image" src="https://github.com/user-attachments/assets/61cc4841-49bd-4732-9765-412fbdadc462" />
+<br/>
+<img width="536" alt="image" src="https://github.com/user-attachments/assets/a020b575-ef75-48c3-b8f9-c05a26f0d9ed" />
+<br/>
+<img width="1152" alt="image" src="https://github.com/user-attachments/assets/e893eedc-1932-4483-b118-bb78f31f8f66" />
+<br/>
+
+
+
+
 
 
 
