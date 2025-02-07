@@ -143,24 +143,6 @@ Understanding the differences between upgrading **managed Kubernetes services li
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 3. Kubeadm Cluster Upgrade
 * Create a multi-node Kubernetes cluster using Kubeadm.
 * Upgrade the Control Plane and Nodes to a newer Kubernetes version.
@@ -192,6 +174,14 @@ Understanding the differences between upgrading **managed Kubernetes services li
 <br/>
 <img width="871" alt="image" src="https://github.com/user-attachments/assets/e5fef2a7-a18e-47e0-95e3-992ef09d19ec" />
 <br/>
+<img width="631" alt="image" src="https://github.com/user-attachments/assets/a4400340-d181-4442-99f6-1868ed32ffee" />
+<br/>
+<img width="626" alt="image" src="https://github.com/user-attachments/assets/b187efdd-23f5-4026-bd0a-62765f60c5bd" />
+<br/>
+<img width="594" alt="image" src="https://github.com/user-attachments/assets/54b43fd5-5bdc-4450-a247-82e73180e8de" />
+<br/>
+
+
 
 
 
