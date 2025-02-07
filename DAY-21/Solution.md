@@ -225,6 +225,7 @@ Understanding the differences between upgrading **managed Kubernetes services li
 
 
 
+
 ### Resources:
 * Kubeadm Upgrade Documentation
 * Kubeadm Cluster Upgrade Guide
