@@ -204,6 +204,43 @@ Understanding the differences between upgrading **managed Kubernetes services li
 <br/>
 <img width="1152" alt="image" src="https://github.com/user-attachments/assets/e893eedc-1932-4483-b118-bb78f31f8f66" />
 <br/>
+<img width="889" alt="image" src="https://github.com/user-attachments/assets/f6271b8b-51f3-457f-9326-9761b84dbdb2" />
+<br/>
+<img width="584" alt="image" src="https://github.com/user-attachments/assets/b7f05349-95fe-4987-af57-4cd98723e70f" />
+<br/>
+<img width="912" alt="image" src="https://github.com/user-attachments/assets/58cd747d-e895-47db-9f38-e053c14bc288" />
+<br/>
+<img width="1141" alt="image" src="https://github.com/user-attachments/assets/58d07abe-4017-4f92-8fcb-34afc2740152" />
+<br/>
+
+<img width="1132" alt="image" src="https://github.com/user-attachments/assets/56385719-5fc1-450e-8167-7fd57056f695" />
+<br/>
+<img width="560" alt="image" src="https://github.com/user-attachments/assets/39a7754c-f346-4a75-8887-3f5a87b50d60" />
+<br/>
+<img width="761" alt="image" src="https://github.com/user-attachments/assets/08a67bbd-247e-420b-8b14-bb44363cebc8" />
+<br/>
+<img width="1081" alt="image" src="https://github.com/user-attachments/assets/ab7af516-29c0-4bdc-abae-82dcd40e464a" />
+<br/>
+<img width="1152" alt="image" src="https://github.com/user-attachments/assets/81c0c800-6ff8-434a-bb42-70615f83b505" />
+<br/>
+<img width="1006" alt="image" src="https://github.com/user-attachments/assets/bcd9f049-1a35-4306-8397-e49d6b408850" />
+<br/>
+<img width="1143" alt="image" src="https://github.com/user-attachments/assets/d4198495-d51b-4e4e-946d-77a57e0a4602" />
+<br/>
+<img width="1151" alt="image" src="https://github.com/user-attachments/assets/2bc43159-6084-4ac4-95de-57e28b39cca7" />
+<br/>
+<img width="523" alt="image" src="https://github.com/user-attachments/assets/d7933c54-37f3-48ae-a068-546a01c9817c" />
+<br/>
+
+
+
+
+
+
+
+
+
+
 
 
 
