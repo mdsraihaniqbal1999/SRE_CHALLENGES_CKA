@@ -241,36 +241,6 @@ Understanding the differences between upgrading **managed Kubernetes services li
 <br/>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Resources:
 * Kubeadm Upgrade Documentation
 * Kubeadm Cluster Upgrade Guide
@@ -280,6 +250,22 @@ Understanding the differences between upgrading **managed Kubernetes services li
 * Upgrade the EKS Control Plane to a newer version using AWS CLI.
 * Update the node groups to match the Control Plane version.
 * Confirm the upgrade with `kubectl version`.
+
+<img width="1126" alt="image" src="https://github.com/user-attachments/assets/6fd6b52a-edb0-42e8-bb06-943628002e4c" />
+<br/>
+<img width="1133" alt="image" src="https://github.com/user-attachments/assets/44c85037-68ce-4df9-b0ee-e6faf3f850ea" />
+<br/>
+<img width="1125" alt="image" src="https://github.com/user-attachments/assets/55b73764-84e8-4482-ac9e-a09eb55846c7" />
+<br/>
+<img width="1130" alt="image" src="https://github.com/user-attachments/assets/a38a8f76-0664-4527-9b50-d9886b7b1f27" />
+<br/>
+<img width="1137" alt="image" src="https://github.com/user-attachments/assets/ca5e942c-b946-40db-9a4f-0ae66eb55c6e" />
+<br/>
+
+
+
+
+
 
 **Note:** EKS also provides an **auto mode** for node groups, which simplifies the process of keeping your nodes up-to-date. While this reduces manual intervention, it's important to monitor the process and validate workloads after the upgrade to ensure seamless transitions.
 
