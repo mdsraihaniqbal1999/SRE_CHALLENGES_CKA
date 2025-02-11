@@ -1,4 +1,4 @@
-#Day22 Challenge: Kubernetes Backup and Restore with etcd and Velero
+# Day22 Challenge: Kubernetes Backup and Restore with etcd and Velero
 
 
 Hello Learners,
