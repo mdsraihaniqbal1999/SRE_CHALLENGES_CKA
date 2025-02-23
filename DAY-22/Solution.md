@@ -141,6 +141,24 @@ Confirm cluster functionality by running a few `kubectl` commands and verify pre
   <img width="699" alt="image" src="https://github.com/user-attachments/assets/b50c0e57-6c36-4db5-bf0a-0bc4cdb6c980" />
   <img width="797" alt="image" src="https://github.com/user-attachments/assets/1db89ca8-39ce-473f-b7ee-b7a6c7170949" />
   <img width="1124" alt="image" src="https://github.com/user-attachments/assets/e67de722-8261-4734-8b65-dfe2f11eb850" />
+  <img width="961" alt="image" src="https://github.com/user-attachments/assets/93dec4a1-eddb-4097-9ee2-b09f4e55a2a4" />
+  <img width="1122" alt="image" src="https://github.com/user-attachments/assets/be8b17e4-f647-4b23-9148-9a96e5e82d87" />
+  <img width="965" alt="image" src="https://github.com/user-attachments/assets/3b2144a1-881f-42ad-8022-01a937c67eca" />
+  <img width="507" alt="image" src="https://github.com/user-attachments/assets/47fc4cba-d9d8-4681-b7a5-3d808dd58858" />
+  <img width="1059" alt="image" src="https://github.com/user-attachments/assets/54b445cf-c64d-4a78-98e1-386312dc50b9" />
+  <img width="806" alt="image" src="https://github.com/user-attachments/assets/f38e6b66-b613-44b2-a8fc-6f79822ea541" />
+  <img width="582" alt="image" src="https://github.com/user-attachments/assets/40469858-89ca-4242-a02a-12684f577af7" />
+  <img width="1021" alt="image" src="https://github.com/user-attachments/assets/8eada17f-54da-429e-ab07-a2d88d312eaf" />
+  <img width="1096" alt="image" src="https://github.com/user-attachments/assets/2ed3f937-6f44-435f-a102-b6ad572a2f5b" />
+
+
+
+
+
+
+
+
+
 
 
 
