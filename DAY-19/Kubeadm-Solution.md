@@ -31,9 +31,20 @@ Here’s what to do:
 2. **Access and review the configurations of the following components:**
    - API Server, Scheduler, Controller Manager, etcd
    - Kubelet, Kube Proxy, Container runtime
+
+
 3. **Check the configuration files in:**
    - `/etc/kubernetes/manifests/`
    - `/var/lib/kubelet/config.yaml`
+  <img width="599" alt="image" src="https://github.com/user-attachments/assets/4faa42a0-88d7-439d-9580-1e3cb0b14375" />
+<img width="601" alt="image" src="https://github.com/user-attachments/assets/cd55b06e-6907-4a49-baff-d905720908fa" />
+<img width="538" alt="image" src="https://github.com/user-attachments/assets/d12b92e0-1227-4f20-a6b0-fbd54e085b77" />
+<img width="602" alt="image" src="https://github.com/user-attachments/assets/9c9b1e65-b92b-4e06-a104-ead04770b9ce" />
+
+
+
+
+
 4. **Retrieve logs for the components**
 5. **Identify the ports used by the components for communication:**
    - Use `kubectl` to inspect pod logs:
