@@ -63,8 +63,8 @@ Here’s what to do:
      <img width="627" alt="image" src="https://github.com/user-attachments/assets/34af8188-feed-4d63-a397-870a3a126e4d" />
 <img width="624" alt="image" src="https://github.com/user-attachments/assets/49a3f99d-2d43-47df-9dff-24fc1beb5737" />
 <img width="601" alt="image" src="https://github.com/user-attachments/assets/f6e91184-4749-4401-b6d2-0ee48b5b34a5" />
-
-
+<img width="601" alt="image" src="https://github.com/user-attachments/assets/b09e633f-fbc0-432c-96f0-388a6aa5df90" />
+<img width="599" alt="image" src="https://github.com/user-attachments/assets/338b9ece-60b5-496b-b5ae-7429872eff37" />
 
 
 ### Bonus Task
