@@ -77,6 +77,11 @@ It simplifies Kubernetes backups by providing:
 
 Velero's architecture consists of several key components:
 
+<img width="767" alt="image" src="https://github.com/user-attachments/assets/ad094f4a-b7c5-424b-ac6a-da37ba8f1c9d" />
+<img width="607" alt="image" src="https://github.com/user-attachments/assets/fb651ed9-5990-4257-8a1a-d1b9c12c2c0c" />
+
+
+
 1. Server-side Components:
    - Velero Server: Runs in your Kubernetes cluster and manages backup/restore operations
    - Backup Controller: Handles the backup process
