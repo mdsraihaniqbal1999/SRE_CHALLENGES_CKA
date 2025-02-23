@@ -127,9 +127,22 @@ Confirm cluster functionality by running a few `kubectl` commands and verify pre
 
 ### Task 2: Backup and Restore EKS Cluster Using Velero
 **Setup:** Use an Amazon EKS cluster for this task.
+<img width="605" alt="image" src="https://github.com/user-attachments/assets/fde00994-ebab-49d7-8463-7388769b4c75" />
+<img width="1104" alt="image" src="https://github.com/user-attachments/assets/489de1a4-a9b9-4969-9283-27760baab307" />
+<img width="840" alt="image" src="https://github.com/user-attachments/assets/3b22898a-47af-4da0-9c1e-dfa681c6dac4" />
+<img width="708" alt="image" src="https://github.com/user-attachments/assets/469ad722-8f7e-415a-ab64-d61c29254d60" />
+
+
+
 
 #### Install and Configure Velero:
 - Set up Velero on your system, configured to use an S3-compatible storage backend.
+  <img width="1019" alt="image" src="https://github.com/user-attachments/assets/e806937c-edf7-4a98-a6e6-5adb1e2e038c" />
+  <img width="1141" alt="image" src="https://github.com/user-attachments/assets/435192f4-ac97-419c-aa44-1acc9736b6ed" />
+  <img width="606" alt="image" src="https://github.com/user-attachments/assets/d261bd85-b916-451b-a374-141ceadbf94d" />
+
+
+
 
 #### Backup Your EKS Cluster:
 Use Velero to back up your cluster resources:
