@@ -137,9 +137,14 @@ Confirm cluster functionality by running a few `kubectl` commands and verify pre
 
 #### Install and Configure Velero:
 - Set up Velero on your system, configured to use an S3-compatible storage backend.
-  <img width="1019" alt="image" src="https://github.com/user-attachments/assets/e806937c-edf7-4a98-a6e6-5adb1e2e038c" />
-  <img width="1141" alt="image" src="https://github.com/user-attachments/assets/435192f4-ac97-419c-aa44-1acc9736b6ed" />
-  <img width="606" alt="image" src="https://github.com/user-attachments/assets/d261bd85-b916-451b-a374-141ceadbf94d" />
+  <img width="1128" alt="image" src="https://github.com/user-attachments/assets/21bcdd90-f7c9-421a-84a8-04420926e1b8" />
+  <img width="699" alt="image" src="https://github.com/user-attachments/assets/b50c0e57-6c36-4db5-bf0a-0bc4cdb6c980" />
+  <img width="797" alt="image" src="https://github.com/user-attachments/assets/1db89ca8-39ce-473f-b7ee-b7a6c7170949" />
+  <img width="1124" alt="image" src="https://github.com/user-attachments/assets/e67de722-8261-4734-8b65-dfe2f11eb850" />
+
+
+
+
 
 
 
